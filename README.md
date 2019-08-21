@@ -11,6 +11,7 @@ Example:
 ### Known working games:
 
 - Monster Hunter World
+- Blaz Blue Central Fiction
 - GRIS
 - Breathedge
 - FINAL FANTASY TYPE-0 HD
