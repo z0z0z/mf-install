@@ -17,6 +17,7 @@ cp -v system32/* "$WINEPREFIX/drive_c/windows/system32"
 overrideDll "mf"
 overrideDll "mferror"
 overrideDll "mfplat"
+overrideDll "mfplay"
 overrideDll "mfreadwrite"
 overrideDll "msmpeg2adec"
 overrideDll "msmpeg2vdec"
@@ -31,6 +32,8 @@ wine64 start regedit.exe wmf.reg
 
 wine64 regsvr32 msmpeg2vdec.dll
 wine64 regsvr32 msmpeg2adec.dll
+wine64 regsvr32 colorcnv.dll
 
 wine regsvr32 msmpeg2vdec.dll
 wine regsvr32 msmpeg2adec.dll
+wine regsvr32 colorcnv.dll
