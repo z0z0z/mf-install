@@ -20,6 +20,7 @@ Usage:
 - Dauntless
 - Danganronpa V3: Killing Harmony
 - Spyro Reignited Trilogy
+- Blasphemous
 
 ### Resident Evil 2 and others that don't:
 See this repository for an installcab based Media Foundation workaround that works with Resident Evil 2 https://github.com/z0z0z/mf-installcab
