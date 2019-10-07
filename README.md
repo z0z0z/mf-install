@@ -19,7 +19,6 @@ Usage:
 - American Fugitive
 - Dauntless
 - Danganronpa V3: Killing Harmony
-- Spyro Reignited Trilogy
 - Blasphemous
 - Devotion
 
