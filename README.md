@@ -23,9 +23,11 @@ Example usage:
 - Monster Hunter World
 - Obduction
 - PC Building Simulator
+- Postal 4
 - Stranded Sails - Explorers of the Cursed Islands
 - Team Sonic Racing
 - The Outer Worlds
+
 
 ### Resident Evil 2 and others that don't work:
 See the repository below for an installcab based Media Foundation workaround that works with Resident Evil 2:
