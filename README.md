@@ -28,7 +28,6 @@ Example usage:
 - Team Sonic Racing
 - The Outer Worlds
 
-
 ### Resident Evil 2 and others that don't work:
 See the repository below for an installcab based Media Foundation workaround that works with Resident Evil 2:
 
