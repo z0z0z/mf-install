@@ -22,6 +22,7 @@ overrideDll "mfplay"
 overrideDll "mfreadwrite"
 overrideDll "msmpeg2adec"
 overrideDll "msmpeg2vdec"
+overrideDll "sqmapi"
 
 export WINEDEBUG="-all"
 
