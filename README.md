@@ -17,7 +17,6 @@ Example usage:
 - Car Mechanic Simulator 2018
 - Children of Morta
 - Danganronpa V3: Killing Harmony
-- Darksiders Genesis
 - Dauntless
 - Devotion
 - FINAL FANTASY TYPE-0 HD
