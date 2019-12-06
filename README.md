@@ -7,12 +7,13 @@ Example usage:
 
 `WINEPREFIX="/home/gaben/.local/share/Steam/steamapps/compatdata/751440/pfx" ./mf-install.sh`
 
-### Known working games:
+### Some known working games:
 
 - American Fugitive
 - Blasphemous
 - BlazBlue: Central Fiction
 - Breathedge
+- Call of Cthulu 2018
 - Car Mechanic Simulator 2018
 - Children of Morta
 - Danganronpa V3: Killing Harmony
@@ -23,9 +24,13 @@ Example usage:
 - Monster Hunter World
 - Obduction
 - PC Building Simulator
+- Postal 4
 - Stranded Sails - Explorers of the Cursed Islands
 - Team Sonic Racing
 - The Outer Worlds
+- Yaga
+
+And many more
 
 ### Resident Evil 2 and others that don't work:
 See the repository below for an installcab based Media Foundation workaround that works with Resident Evil 2:
