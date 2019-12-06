@@ -1,6 +1,7 @@
 #!/bin/sh
 
 [ -z "$WINEPREFIX" ] && echo "WINEPREFIX not set" && exit 1
+[ ! -d "$WINEPREFIX/drive_c" ] && echo "\"$WINEPREFIX\" isn't a valid WINEPREFIX" && exit 1
 
 set -e
 
