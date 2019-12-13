@@ -15,7 +15,7 @@ override_dll() {
 check_env "$WINEPREFIX" WINEPREFIX
 check_sanity "$WINEPREFIX" drive_c
 
-if [ "$1" == "-proton" ]; then
+if [ "$1" = "-proton" ]; then
 
     check_env "$PROTON" PROTON
     check_sanity "$PROTON" dist/bin
