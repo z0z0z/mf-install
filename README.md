@@ -15,6 +15,15 @@ export PROTON="/home/gaben/.local/share/Steam/steamapps/common/Proton 4.11"
 ./mf-install.sh -proton
 ```
 
+Additionally if you are using the Steam Flatpak you should run the above commands inside of the Flatpak's sandbox (after sharing your mf-install directory into the Flatpak environment)
+
+In this example we've shared `mf-install` by moving it to `.var/app/com.valvesoftware.Steam/.local/share` outside of the sandbox:
+
+```
+flatpak run --command=sh com.valvesoftware.Steam
+~/.local/share/mf-install/mf-install.sh -proton
+```
+
 ### Some known working games:
 
 - American Fugitive
