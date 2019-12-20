@@ -5,12 +5,12 @@ Easily add Media Foundation support to a Wine prefix. Just set WINEPREFIX and ru
 
 Example usage:
 
-`WINEPREFIX="/home/gaben/.local/share/Steam/steamapps/compatdata/751440/pfx" ./mf-install.sh`
+`WINEPREFIX="/home/gaben/.local/share/Steam/steamapps/compatdata/{appid}/pfx" ./mf-install.sh`
 
 Optionally you can use Proton's Wine instead of your system:
 
 ```
-export WINEPREFIX="/home/gaben/.local/share/Steam/steamapps/compatdata/751440/pfx"
+export WINEPREFIX="/home/gaben/.local/share/Steam/steamapps/compatdata/{appid}/pfx"
 export PROTON="/home/gaben/.local/share/Steam/steamapps/common/Proton 4.11"
 ./mf-install.sh -proton
 ```
