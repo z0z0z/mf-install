@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 check_env() {
     [ -z "$1" ] && echo "$2 is not set" && exit 1
