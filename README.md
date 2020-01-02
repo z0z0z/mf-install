@@ -16,6 +16,7 @@ Optionally you can use Proton's Wine instead of your system's Wine. See the scri
 - Blasphemous
 - BlazBlue: Central Fiction
 - Breathedge
+- Bright Memory
 - Call of Cthulu 2018
 - Car Mechanic Simulator 2018
 - Children of Morta
