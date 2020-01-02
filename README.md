@@ -7,7 +7,7 @@ Example usage:
 
 `WINEPREFIX="/dev/brain/think/wine prefixes can be anywhere/folder" ./mf-install.sh`
 
-Steam stores Proton Wine prefixes as `$STEAM_FOLDER/compatdata/$GAMEID/pfx`
+Steam stores Proton Wine prefixes as `<STEAM FOLDER>/steamapps/compatdata/<GAME ID>/pfx`
 
 Optionally you can use Proton's Wine instead of your system's Wine. See the script for how.
 
