@@ -15,8 +15,6 @@ override_dll() {
 check_env "$WINEPREFIX" WINEPREFIX
 check_sanity "$WINEPREFIX" drive_c
 
-# User instructions:
-# Set PROTON to a Proton folder just like WINEPREFIX, pass -proton to script
 if [ "$1" = "-proton" ]; then
 
     check_env "$PROTON" PROTON
