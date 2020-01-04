@@ -1,6 +1,6 @@
 # mf-install
 Media Foundation workaround for Wine
-Test
+
 Easily add Media Foundation support to a Wine prefix. Just set WINEPREFIX to a valid Wine prefix and run.
 
 Example usage:
