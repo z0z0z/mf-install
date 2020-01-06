@@ -5,11 +5,13 @@ Easily add Media Foundation support to a Wine prefix. Just set WINEPREFIX to a v
 
 Example usage:
 
-`WINEPREFIX="/dev/brain/think/wine prefixes can be anywhere/folder" ./mf-install.sh`
+`WINEPREFIX="/dev/brain/wine prefixes can be anywhere/folder" ./mf-install.sh`
 
 Steam stores Proton Wine prefixes as `<STEAM FOLDER>/steamapps/compatdata/<GAME ID>/pfx`
 
 Optionally you can use Proton's Wine instead of your system's Wine. See the script for how.
+
+For CPUs with more than 8 physical cores see this known issue: https://github.com/z0z0z/mf-install/issues/44
 
 ### Some known working games:
 - American Fugitive
