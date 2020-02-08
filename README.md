@@ -33,6 +33,7 @@ For CPUs with more than 8 physical cores see this known issue: https://github.co
 - Stranded Sails - Explorers of the Cursed Islands
 - Team Sonic Racing
 - The Outer Worlds
+- Valfaris
 - Yaga
 
 And many more
