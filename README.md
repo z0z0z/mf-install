@@ -1,3 +1,9 @@
+# May 2020 Notice
+
+For many games this script is not needed anymore, and may soon not be needed at all.
+
+This is largely thanks to work Guy1524 has done in officially implementing Media Foundation support into Wine. I would reccommend trying games with latest Proton-GE first, and only using this as a backup.
+
 # mf-install
 Media Foundation workaround for Wine
 
