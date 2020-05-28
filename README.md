@@ -28,6 +28,7 @@ For CPUs with more than 8 physical cores see this known issue: https://github.co
 - Car Mechanic Simulator 2018
 - Children of Morta
 - Danganronpa V3: Killing Harmony
+- Darksiders Genesis
 - Dauntless
 - Devotion
 - FINAL FANTASY TYPE-0 HD
@@ -36,6 +37,7 @@ For CPUs with more than 8 physical cores see this known issue: https://github.co
 - Obduction
 - PC Building Simulator
 - Postal 4
+- Someday Youll Return
 - Stranded Sails - Explorers of the Cursed Islands
 - Team Sonic Racing
 - The Outer Worlds
