@@ -34,6 +34,7 @@ For CPUs with more than 8 physical cores see this known issue: https://github.co
 - GRIS
 - Monster Hunter World
 - Obduction
+- Old Man's Journey
 - PC Building Simulator
 - Postal 4
 - Stranded Sails - Explorers of the Cursed Islands
