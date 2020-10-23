@@ -30,7 +30,7 @@ fi
 set -e
 export WINEDEBUG="-all"
 
-scriptdir=$(dirname "$0")
+scriptdir="$(dirname "$(realpath "$0")")"
 cd "$scriptdir"
 
 cp -v syswow64/* "$WINEPREFIX/drive_c/windows/syswow64"
