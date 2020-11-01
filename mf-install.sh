@@ -16,7 +16,7 @@ check_env "$WINEPREFIX" WINEPREFIX
 check_sanity "$WINEPREFIX" drive_c
 
 # User instructions:
-# Set PROTON to a Proton folder just like WINEPREFIX, pass -proton to script
+# Set PROTON to a Proton folder (in common not compatdata) just like WINEPREFIX, pass -proton to script
 if [ "$1" = "-proton" ]; then
 
     check_env "$PROTON" PROTON
@@ -35,8 +35,8 @@ export WINEDEBUG="-all"
 scriptdir="$(dirname "$(realpath "$0")")"
 cd "$scriptdir"
 
-cp -v syswow64/* "$WINEPREFIX/drive_c/windows/syswow64"
-cp -v system32/* "$WINEPREFIX/drive_c/windows/system32"
+cp -vf syswow64/* "$WINEPREFIX/drive_c/windows/syswow64"
+cp -vf system32/* "$WINEPREFIX/drive_c/windows/system32"
 
 override_dll "colorcnv"
 override_dll "mf"
