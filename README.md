@@ -43,7 +43,7 @@ For CPUs with more than 8 physical cores see this known issue: https://github.co
 
 And many more
 
-### Resident Evil 2 and others that don't work:
-See the repository below for an installcab based Media Foundation workaround that works with Resident Evil 2:
+### Alternative method:
+See the repository below for an installcab based Media Foundation workaround that works with some games that this doesn't, and vice versa:
 
 https://github.com/z0z0z/mf-installcab
