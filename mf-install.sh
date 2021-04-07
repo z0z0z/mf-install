@@ -48,11 +48,11 @@ override_dll "msmpeg2adec"
 override_dll "msmpeg2vdec"
 override_dll "sqmapi"
 
-wine start regedit.exe mf.reg
-wine start regedit.exe wmf.reg
+wine regedit.exe mf.reg
+wine regedit.exe wmf.reg
 
-wine64 start regedit.exe mf.reg
-wine64 start regedit.exe wmf.reg
+wine64 regedit.exe mf.reg
+wine64 regedit.exe wmf.reg
 
 wine regsvr32 colorcnv.dll
 wine regsvr32 msmpeg2adec.dll
