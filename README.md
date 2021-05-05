@@ -24,6 +24,7 @@ For CPUs with more than 8 physical cores see this known issue: https://github.co
 - Blasphemous
 - BlazBlue: Central Fiction
 - Breathedge
+- Bright Memory
 - Call of Cthulu 2018
 - Car Mechanic Simulator 2018
 - Children of Morta
