@@ -20,12 +20,12 @@ check_sanity "$WINEPREFIX" drive_c
 if [ "$1" = "-proton" ]; then
 
     check_env "$PROTON" PROTON
-    check_sanity "$PROTON" dist/bin
+    check_sanity "$PROTON" files/bin
 
-    export PATH="$PROTON/dist/bin:$PATH"
-    export WINESERVER="$PROTON/dist/bin/wineserver"
-    export WINELOADER="$PROTON/dist/bin/wine"
-    export WINEDLLPATH="$PROTON/dist/lib/wine:$PROTON/dist/lib64/wine"
+    export PATH="$PROTON/files/bin:$PATH"
+    export WINESERVER="$PROTON/files/bin/wineserver"
+    export WINELOADER="$PROTON/files/bin/wine"
+    export WINEDLLPATH="$PROTON/files/lib/wine:$PROTON/files/lib64/wine"
 
 fi
 
@@ -61,4 +61,3 @@ wine regsvr32 msmpeg2vdec.dll
 wine64 regsvr32 colorcnv.dll
 wine64 regsvr32 msmpeg2adec.dll
 wine64 regsvr32 msmpeg2vdec.dll
-
