@@ -27,7 +27,7 @@ if [ "$1" = "-proton" ]; then
         prefix="dist"
     fi
 
-    check_sanity "$PROTON" dist/bin
+    check_sanity "$PROTON" $prefix/bin
 
     export PATH="$PROTON/$prefix/bin:$PATH"
     export WINESERVER="$PROTON/$prefix/bin/wineserver"
