@@ -20,12 +20,19 @@ check_sanity "$WINEPREFIX" drive_c
 if [ "$1" = "-proton" ]; then
 
     check_env "$PROTON" PROTON
+
+    if [ -d "$PROTON/files" ]; then
+        prefix="files"
+    elif [ -d "$PROTON/dist" ]; then
+        prefix="dist"
+    fi
+
     check_sanity "$PROTON" dist/bin
 
-    export PATH="$PROTON/dist/bin:$PATH"
-    export WINESERVER="$PROTON/dist/bin/wineserver"
-    export WINELOADER="$PROTON/dist/bin/wine"
-    export WINEDLLPATH="$PROTON/dist/lib/wine:$PROTON/dist/lib64/wine"
+    export PATH="$PROTON/$prefix/bin:$PATH"
+    export WINESERVER="$PROTON/$prefix/bin/wineserver"
+    export WINELOADER="$PROTON/$prefix/bin/wine"
+    export WINEDLLPATH="$PROTON/$prefix/lib/wine:$PROTON/dist/lib64/wine"
 
 fi
 
