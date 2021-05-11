@@ -32,7 +32,7 @@ if [ "$1" = "-proton" ]; then
     export PATH="$PROTON/$prefix/bin:$PATH"
     export WINESERVER="$PROTON/$prefix/bin/wineserver"
     export WINELOADER="$PROTON/$prefix/bin/wine"
-    export WINEDLLPATH="$PROTON/$prefix/lib/wine:$PROTON/dist/lib64/wine"
+    export WINEDLLPATH="$PROTON/$prefix/lib/wine:$PROTON/$prefix/lib64/wine"
 
 fi
 
