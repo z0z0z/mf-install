@@ -33,6 +33,7 @@ For CPUs with more than 8 physical cores see this known issue: https://github.co
 - FINAL FANTASY TYPE-0 HD
 - GRIS
 - Monster Hunter World
+- Not For Broadcast: Prologue
 - Obduction
 - PC Building Simulator
 - Postal 4
